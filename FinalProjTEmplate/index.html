@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <title>Elden Ring Bosses</title>
+</head>
+<body>
+    <section class="hero">
+        <header>
+            <a href="/index.html"><img class="logoimage" src="images/logo.png" alt="Homepage"></a>
+            <nav>
+            <nav>
+                <div class="nav-items"><a href="index.html">Home</a></div>
+                <div class="nav-items"><a href="malenia.html">Malenia</a></div>
+                <div class="nav-items"><a href="margit.html">Margit</a></div>
+                <div class="nav-items"><a href="godfrey.html">Godfrey</a></div>
+                
+            </nav>
+        </header>
+
+        <div class="title-text">
+            <p>The incredible bosses of</p>
+            <h1>Elden Ring</h1>
+            
+        </div>
+
+    </section>
+
+    
+    <div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
+
+    <script>
+        // When the user scrolls down 800px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+     
+         function scrollFunction() {
+           if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+             document.getElementById("cornerBtn").style.display = "block";
+           } else {
+             document.getElementById("cornerBtn").style.display = "none";
+           }
+         }
+     
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+     </script>
+
+    <div class="summary">
+        <h1>Site Summary</h1>
+        <p>Edlen Ring has some of the most incredible boss design in the history of video games. This site will be taking a closer look at some of the highlights of the game and dive into just what makes them so good. Elden ring is now the 3rd spinoff game from the Dark Souls series that FromSoftware has developed and by far the most ambitous. Coming in at over two times longer than any other game in the series with over twice the amount of total bosses, there is just a lot to talk about.</p>
+    </div>
+    <footer>
+        <p>&copy; 2022 Carson Bischoff</p>
+    </footer>
+    
+</body>
+</html>
